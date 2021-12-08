@@ -1,10 +1,13 @@
-require 'docking_station'
+require 'docking_station.rb'
 
-describe DockingStation do
-  it { is_expected.to respond_to(:release_bike) }
-  it 'returns a new bike' do
-    docking_station = DockingStation.new
-    bike = Bike.new
-    expect(docking_station.release_bike).to eq(bike)
-  end
+describe DockingStation do 
+    it  { is_expected.to respond_to 'release_bike'}
+    
+    it 'get bike and release' do
+    bike = subject.release_bike 
+    expect(bike).to be_working
+    end
 end
+
+
+
