@@ -1,7 +1,9 @@
+require_relative 'docking_station'
+
 class Bike
     def working?
       true
     end
-    # def docked?
-    # end
 end
+
+
