@@ -17,7 +17,7 @@ Pairing allowed difficult problems to be solved at twice the speed.
 ## Getting Started
 Clone this repo
 
-git clone git@github.com:floriov/airport_challenge.git
+git clone https://github.com/floriov/Boris_Bikes.git
 Run boris_bikes.rb script in a REPL environment from root directory
 
 
