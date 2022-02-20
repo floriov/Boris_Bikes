@@ -23,4 +23,4 @@ Run boris_bikes.rb script in a REPL environment from root directory
 
 Testing
 Run tests using RSpec:
-
+rspec
